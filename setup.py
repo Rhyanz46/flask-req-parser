@@ -3,8 +3,8 @@ from setuptools import setup
 
 setup(
     name='flask_req_parser',
-    version='0.1.3',
-    url='http://ariansaputra.com/lib/py/flask-req-parser',
+    version='0.1.4',
+    url='https://github.com/Rhyanz46/flask-req-parser',
     license='BSD',
     author='Arian Saputra',
     author_email='rianariansaputra@gmail.com',
