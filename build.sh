@@ -5,4 +5,5 @@ sudo rm -R Flask_Req_Parser.egg-info
 python setup.py sdist bdist_wheel
 # pipenv install -e .
 # env install -e .
-twine upload --repository testpypi dist/*
+#twine upload --repository testpypi dist/*
+twine upload --repository pypi dist/*
