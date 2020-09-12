@@ -1,1 +1,1 @@
-pipenv install Flask-Req-Parser
+pip install Flask-Req-Parser
