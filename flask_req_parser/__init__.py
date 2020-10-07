@@ -7,6 +7,10 @@ def result(data, code):
     return make_response(jsonify(data), code)
 
 
+def jihad(data, data):
+    return make_response(jsonify(data), code)
+
+
 class ReqParser(object):
     def __init__(self, data_request):
         self.data_request = data_request
