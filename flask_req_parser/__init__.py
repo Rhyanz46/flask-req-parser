@@ -1,6 +1,6 @@
 from flask import abort, make_response, jsonify
-from typing import List
 from datetime import datetime, date
+from typing import List
 
 
 def result(data, code):
@@ -16,7 +16,7 @@ class ReqParser(object):
     def append(self, key, value):
         self.__parsed.update({key: value})
 
-    def get_parsed(self):
+    def getparsed(self):
         return self.__parsed
 
     def parse(
